@@ -1,0 +1,38 @@
+.mainHeading{
+	text-align: center;
+}
+
+p{
+	background: #FBCEB1;
+	height: 300px;
+	font-size: 24px;
+	line-height: 35px;
+	overflow: scroll;
+}
+
+.red, .blue, .purple, .yellow{
+	margin: 50px;
+	height: 90px;
+	width: 90px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.red{
+	background: red;
+}
+
+.blue{
+	background: blue;
+}
+
+.purple{
+	background: purple;
+}
+
+.yellow{
+	background: yellow;
+}
+
+
+
