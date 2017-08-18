@@ -109,6 +109,10 @@ if(result == totalScore){
 	$("#totalScore").html("Total Score: " + totalScoreRandom);
 	wins++;
 	$("#wins").html("Wins: " + wins);
+	random1 = Math.floor(Math.random() * 12);
+	random2 = Math.floor(Math.random() * 12);
+	random3 = Math.floor(Math.random() * 12);
+	random4 = Math.floor(Math.random() * 12);
 	red = numbers[random1];
 	blue = numbers[random2];
 	purple = numbers[random3];
@@ -121,6 +125,10 @@ if(result == totalScore){
 	$("#totalScore").html("Total Score: " + totalScoreRandom);
 	loses++;
 	 $("#loses").html("Loses: " + loses);
+	random1 = Math.floor(Math.random() * 12);
+	random2 = Math.floor(Math.random() * 12);
+	random3 = Math.floor(Math.random() * 12);
+	random4 = Math.floor(Math.random() * 12);
 	red = numbers[random1];
 	blue = numbers[random2];
 	purple = numbers[random3];
